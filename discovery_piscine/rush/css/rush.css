@@ -1,1 +1,18 @@
+button {
+    opacity: 75%;
+}
 
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.background {
+    width: 100%; /* ou la largeur souhaitée */
+    height: 400px; /* ou la hauteur souhaitée */
+    background-image: url('goggle-babini-lamercanti_12084.jpeg');
+    background-size: cover; /* ajuster la taille de l'image pour remplir complètement l'élément */
+    background-position: center; /* positionner l'image au centre */
+}
