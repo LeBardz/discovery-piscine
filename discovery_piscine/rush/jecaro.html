@@ -1,3 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- ligne css enlevée ---- implemenation -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Code : Make Coocking Wood</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .full-height {
+            height: 100vh;
+        }
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .custom-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            background-color: #f9f9f9;
+        }
+        .custom-card h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .info-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 10%;
+        }
+        .card-button, .card-footer, .Formulaire {
+            margin: 20px;
+        }
+        .card-footer {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .img-icon {
+            width: 50px;
+            height: 50px;
+        }
+        .Formulaire {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+        .test {
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cooking ?</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#profile">Photo de Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Expériences Professionnelles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav> 
+
+    <div id="profile" class="container-fluid full-height d-flex align-items-center">
+        <div class="row w-100">
+            <div class="col-md-4 text-center">
+                <img src="./img/alexis.jpg" alt="Photo de Profile" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8 d-flex flex-column justify-content-center">
+                <h1>Bardoux Alexis</h1>
+                <h3>Chef cuisinier</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="container-fluid full-height d-flex align-items-center justify-content-center">
+        <div class="row w-100 justify-content-center">
+            <div class="col-md-5 custom-card">
+                <h3>Compétences de Cuisinier</h3>
+                <ul>
+                    <li>Préparation et cuisson des plats</li>
+                    <li>Création de menus</li>
+                    <li>Gestion de la cuisine</li>
+                    <li>Hygiène et sécurité alimentaire</li>
+                    <li>Connaissance des techniques culinaires</li>
+                    <li>Travail d'équipe</li>
+                    <li>Gestion des stocks</li>
+                </ul>
+            </div>
+            <div class="col-md-5 custom-card">
+                <h3>Expériences Professionnelles</h3>
+                <ul>
+                    <li>Chef cuisinier à Restaurant A (2015-2020)</li>
+                    <li>Sous-chef à Restaurant B (2012-2015)</li>
+                    <li>Commis de cuisine à Restaurant C (2010-2012)</li>
+                    <li>Stage à Pâtisserie D (2009-2010)</li>
+                    <li>Apprenti à École de Cuisine E (2007-2009)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container-fluid full-height d-flex align-items-center justify-content-center">
+        <div class="row w-100 justify-content-center">
+            <div class="col-md-5 d-flex flex-column align-items-center">
+                <div class="card-button">
+                    <h1 class="test">Contact</h1>
+                </div>
+                <div class="card-footer">
+                    <a href="mailto:m11.beloufa@gmail.com">
+                        <img class="img-icon" src="https://clipartcraft.com/images/gmail-logo-circle.png" alt="gmail">
+                    </a>
+                    <a href="https://github.com/mohamedblf" target="_blank">
+                        <img class="img-icon" src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohamed-undefined-a27162307/" target="_blank">
+                        <img class="img-icon" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="linkedin">
+                    </a>
+                    <a href="https://www.facebook.com/mohamed.beloufa.503/" target="_blank">
+                        <img class="img-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/768px-2021_Facebook_icon.svg.png" alt="facebook">
+                    </a>
+                    <a href="http://discordapp.com/users/394839014235963404" target="_blank">
+                        <img class="img-icon" src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-6.png" alt="Instagram">
+                    </a>
+                </div>
+                <div class="info-card mt-3">
+                    <h3>Informations Personnelles</h3>
+                    <p>Email : tiki7@hotmail.fr</p>
+                    <p>Téléphone : 0651243194</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h2>Formulaire de contact</h2>
+                <form action="/submit" method="post">
+                    <div class="mb-3">
+                        <label for="nom" class="form-label">Nom :</label>
+                        <input type="text" class="form-control" id="nom" name="nom" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="prenom" class="form-label">Prénom :</label>
+                        <input type="text" class="form-control" id="prenom" name="prenom" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email :</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Mot de passe :</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="age" class="form-label">Âge :</label>
+                        <input type="number" class="form-control" id="age" name="age" min="0" max="120">
+                    </div>
+                    <div class="mb-3">
+                        <label for="sexe" class="form-label">Sexe :</label>
+                        <div>
+                            <input type="radio" id="homme" name="sexe" value="homme">
+                            <label for="homme">Homme</label>
+                            <input type="radio" id="femme" name="sexe" value="femme">
+                            <label for="femme">Femme</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pays" class="form-label">Pays :</label>
+                        <select id="pays" name="pays" class="form-select">
+                            <option value="france">France</option>
+                            <option value="belgique">Belgique</option>
+                            <option value="suisse">Suisse</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="newsletter" name="newsletter">
+                        <label class="form-check-label" for="newsletter">S'inscrire à la newsletter</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Soumettre</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
 <!--
 
 Évoluer dans un environnement cerné par l'incontournable tout-numérique, vous oblige à vous adapter constamment.
